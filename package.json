@@ -1,27 +1,28 @@
 {
-  "name": "webpage-now",
+  "name": "mdm-homepage",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "node server.js",
     "build": "next build",
-    "now-build": "next build",
-    "start": "next start"
+    "start": "cross-env NODE_ENV=production node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mel-vin/webpage-now.git"
+    "url": "git+https://github.com/Mel-vin/mdm-homepage.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Mel-vin/webpage-now/issues"
+    "url": "https://github.com/Mel-vin/mdm-homepage/issues"
   },
-  "homepage": "https://github.com/Mel-vin/webpage-now#readme",
+  "homepage": "https://github.com/Mel-vin/mdm-homepage#readme",
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "bootstrap": "^4.3.1",
+    "express": "^4.16.4",
     "next": "^8.0.4",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.8",

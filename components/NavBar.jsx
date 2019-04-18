@@ -11,7 +11,8 @@ const PublicNavbar = () => {
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
                     <Nav>
-                        <Nav.Link href="https://forum.melvinsdm.com">Forum</Nav.Link>
+                        <Nav.Link href="/">Home</Nav.Link>
+                        <Nav.Link href="https://forum.melvinsdm.com">Forums</Nav.Link>
                     </Nav>                
                 </Navbar.Collapse>
             </Container>
